@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./src/output.css" rel="stylesheet">
+    
+    <title>Tailwind</title>
     </head>
-    <body class="text-center bg-green-100 md:bg-[#EDDFE0] lg:bg-[#DDF6D2] ">
-        <header class="bg-[#B4DEBD] md:bg-gray-300 lg:bg-[#E62727] xl:bg-[#B17F59] ">
+    <body class=" bg-[#EEE6CA] sm:bg-white md:bg-[#EDDFE0] lg:bg-[#DDF6D2] ">
+        <header class="bg-[#896C6C] sm:bg-[#000000] md:bg-gray-300 lg:bg-[#647FBC] xl:bg-[#B17F59] text-center">
             <div class="p-8">
-                <p class=" font-bold text-3xl text-[#9B5DE0] pb-3 md:text-4xl md:mb-4 lg:text-6xl lg:text-cyan-950 xl:text-white">
+                <p class=" font-bold text-3xl text-white md:text-black pb-3 md:text-4xl md:mb-4 lg:text-6xl lg:text-black xl:text-white">
                     Christine P. De Padua
                 </p>
                 <p class="italic md:font-bold md:mt-2 lg:text-xl  ">
@@ -20,7 +22,7 @@
             </div>
 
         </header>
-        <main class="p-4">
+        <main class="p-4 text-center">
             <div class="lg:flex lg:items-start lg:gap-6 xl:gap-10">
                 <div class="flex justify-center items-center md:mt-4  lg:animate-bounce xl:animate-none lg:flex-shrink-0">
                     <img class="size-40 hidden md:size-60 md:block md:rounded-full lg:rounded lg:size-75 " src="https://media1.tenor.com/m/fQqnqv9QV7gAAAAC/vrbie-vrbs.gif" width="518" height="918.1611374407582" alt="a white cat wearing a pair of green glasses" fetchpriority="high" style="max-width: 518px;">
@@ -32,15 +34,67 @@
                 </div>
             </div>
             <div>
-                <p class=" bg-[#000B58] text-white rounded-full font-semibold text-xl text-justify indent-[50px] mt-10 p-10 md:bg-emerald-950 md:font-light md:italic md:text-yellow-200 md:text-lg md:p-5 lg:text-2xl lg:text-black lg:bg-[#647FBC] lg:font-normal lg:not-italic xl:text-center xl:m-7 xl:bg-[#99BC85] xl:rounded">
+                <p class=" bg-[#896C6C] sm:bg-[#000000] text-white rounded-full font-semibold text-xl text-justify indent-[50px] mt-10 p-10 md:bg-emerald-950 md:font-light md:italic md:text-yellow-200 md:text-lg md:p-5 lg:text-2xl lg:text-black lg:bg-[#647FBC] lg:font-normal lg:not-italic xl:text-center xl:m-7 xl:bg-[#99BC85] xl:rounded">
                     "Success is not final, failure is not fatal: it is the courage to continue that counts."
                 </p>
             </div>
+            
         </main>
-        
-        <footer class="bg-[#FFF7DD] fixed bottom-0 w-full md:hidden xl:block xl:bg-[#C1CFA1] ">
+        <section class="p-6">
+        <h1 class="text-3xl font-bold text-center mb-8 text-gray-800">Places I Want to Visit</h1>
 
-            <p class="font-thin text-4xl p-2 xl:text-lg">All Right Reserved. 2025</p>
-        </footer>
+        <section class="bg-[#E5BEB5] sm:bg-gray-400 md:bg-[#BCA88D] lg:bg-[#99BC85] p-6 rounded-2xl grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 text-white lg:text-black transition-all duration-500">
+            
+            <div class="bg-[#896C6C] sm:bg-[#000000] md:bg-[#3E3F29] lg:bg-[#647FBC] p-4 rounded-xl shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center justify-center">
+            <h2 class="font-bold text-lg">Japan</h2>
+            </div>
+
+            <div class="bg-[#896C6C] sm:bg-[#000000] md:bg-[#3E3F29] lg:bg-[#647FBC] p-4 rounded-xl shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center justify-center">
+            <h2 class="font-bold text-lg">South Korea anneong</h2>
+            </div>
+
+            <div class="bg-[#896C6C] sm:bg-[#000000] md:bg-[#3E3F29] lg:bg-[#647FBC] p-4 rounded-xl shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center justify-center">
+            <h2 class="font-bold text-lg">Enchanted Kingdom</h2>
+            </div>
+
+            <div class="bg-[#896C6C] sm:bg-[#000000] md:bg-[#3E3F29] lg:bg-[#647FBC] p-4 rounded-xl shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center justify-center">
+            <h2 class="font-bold text-lg">Disneyland</h2>
+            </div>
+
+            <div class="bg-[#896C6C] sm:bg-[#000000] md:bg-[#3E3F29] lg:bg-[#647FBC] p-4 rounded-xl shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center justify-center">
+            <h2 class="font-bold text-lg">Mall of Asia sa Pasay</h2>
+            </div>
+
+            <div class="bg-[#896C6C] sm:bg-[#000000] md:bg-[#3E3F29] lg:bg-[#647FBC] p-4 rounded-xl shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center justify-center">
+            <h2 class="font-bold text-lg">Thailand sawadeka</h2>
+            </div>
+
+            <div class="bg-[#896C6C] sm:bg-[#000000] md:bg-[#3E3F29] lg:bg-[#647FBC] p-4 rounded-xl shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center justify-center">
+            <h2 class="font-bold text-lg">Canada</h2>
+            </div>
+
+            <div class="bg-[#896C6C] sm:bg-[#000000] md:bg-[#3E3F29] lg:bg-[#647FBC] p-4 rounded-xl shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center justify-center">
+            <h2 class="font-bold text-lg">Greece</h2>
+            </div>
+
+            <div class="bg-[#896C6C] sm:bg-[#000000] md:bg-[#3E3F29] lg:bg-[#647FBC] p-4 rounded-xl shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center justify-center">
+            <h2 class="font-bold text-lg">Caleruega Curch</h2>
+            </div>
+
+            <div class="bg-[#896C6C] sm:bg-[#000000] md:bg-[#3E3F29] lg:bg-[#647FBC] p-4 rounded-xl shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center justify-center">
+            <h2 class="font-bold text-lg">Boracay</h2>
+            </div>
+
+            <div class="bg-[#896C6C] sm:bg-[#000000] md:bg-[#3E3F29] lg:bg-[#647FBC] p-4 rounded-xl shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center justify-center">
+            <h2 class="font-bold text-lg">Pangasinan</h2>
+            </div>
+
+            <div class="bg-[#896C6C] sm:bg-[#000000] md:bg-[#3E3F29] lg:bg-[#647FBC] p-4 rounded-xl shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center justify-center">
+            <h2 class="font-bold text-lg">Bahay nina Jerick at Mica</h2>
+            </div>
+        </section>
+        </section>
+                 
     </body>
+    
 </html>
