@@ -7,13 +7,13 @@
     
     <title>Tailwind</title>
     </head>
-    <body class=" bg-[#EEE6CA] sm:bg-white md:bg-[#EDDFE0] lg:bg-[#DDF6D2] ">
-        <header class="bg-[#896C6C] sm:bg-[#000000] md:bg-gray-300 lg:bg-[#647FBC] xl:bg-[#B17F59] text-center">
+    <body class=" ">
+        <header class="">
             <div class="p-8">
-                <p class=" font-bold text-3xl text-white md:text-black pb-3 md:text-4xl md:mb-4 lg:text-6xl lg:text-black xl:text-white">
+                <p class="name">
                     Christine P. De Padua
                 </p>
-                <p class="italic md:font-bold md:mt-2 lg:text-xl  ">
+                <p class="italic md:font-bold md:mt-2 lg:text-xl ">
                   <a class="bg-green-200 p-2 rounded-2xl lg:p-4 lg:rounded-full xl:bg-[#A5B68D] xl:rounded-2xl" href="">Home</a> 
                   <a class="bg-blue-200 p-2 rounded-2xl lg:p-4 lg:rounded-full xl:bg-[#A5B68D] xl:rounded-2xl" href="">About</a> 
                   <a class="bg-red-200 p-2 rounded-2xl lg:p-4 lg:rounded-full xl:bg-[#A5B68D] xl:rounded-2xl" href="">Contact</a>  
@@ -24,17 +24,17 @@
         </header>
         <main class="p-4 text-center">
             <div class="lg:flex lg:items-start lg:gap-6 xl:gap-10">
-                <div class="flex justify-center items-center md:mt-4  lg:animate-bounce xl:animate-none lg:flex-shrink-0">
+                <div class="gif">
                     <img class="size-40 hidden md:size-60 md:block md:rounded-full lg:rounded lg:size-75 " src="https://media1.tenor.com/m/fQqnqv9QV7gAAAAC/vrbie-vrbs.gif" width="518" height="918.1611374407582" alt="a white cat wearing a pair of green glasses" fetchpriority="high" style="max-width: 518px;">
                 </div>
                 <div class="lg:flex-1 lg:text-left">
-                    <p class="font-mono tracking-wide leading-relaxed text-justify indent-8 md:font-sans md:text-2xl lg:font-bold xl:font-normal xl:italic xl:tracking-tighter text-lg p-4 lg:text-[#F7418F] xl:text-gray-700">
+                    <p class="">
                         <span class="underline decoration-black md:underline md:decoration-green-700 xl:text-[#626F47]"> I'm currently 20 years old.</span> I lived in  Navotas Balayan Batangas. Philippines 4213 <span class="line-through decoration-yellow-300 xl:text-[#A4B465]">I'm studying at Batangas State University The National Engineering University Balayan.</span> Bachelor of Science in Information Technology and my major is Business Analytics, <span class="underline underline-offset-6 decoration-4 decoration-pink-800">and i'm a third year student.</span>
                     </p>
                 </div>
             </div>
             <div>
-                <p class=" bg-[#896C6C] sm:bg-[#000000] text-white rounded-full font-semibold text-xl text-justify indent-[50px] mt-10 p-10 md:bg-emerald-950 md:font-light md:italic md:text-yellow-200 md:text-lg md:p-5 lg:text-2xl lg:text-black lg:bg-[#647FBC] lg:font-normal lg:not-italic xl:text-center xl:m-7 xl:bg-[#99BC85] xl:rounded">
+                <p class="qoute">
                     "Success is not final, failure is not fatal: it is the courage to continue that counts."
                 </p>
             </div>
@@ -43,58 +43,69 @@
         <section class="p-6">
         <h1 class="text-3xl font-bold text-center mb-8 text-gray-800">Places I Want to Visit</h1>
 
-        <section class="bg-[#E5BEB5] sm:bg-gray-400 md:bg-[#BCA88D] lg:bg-[#99BC85] p-6 rounded-2xl grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 text-white lg:text-black transition-all duration-500">
+        <section class="card-sec">
             
-            <div class="bg-[#896C6C] sm:bg-[#000000] md:bg-[#3E3F29] lg:bg-[#647FBC] p-4 rounded-xl shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center justify-center">
-            <h2 class="font-bold text-lg">Japan</h2>
+            <div class="card">
+                <img src="img/japan.png" alt="#" class="card-img">
+                <h2 class="font-bold text-lg text-center">Japan</h2>
             </div>
 
-            <div class="bg-[#896C6C] sm:bg-[#000000] md:bg-[#3E3F29] lg:bg-[#647FBC] p-4 rounded-xl shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center justify-center">
+            <div class="card">   
+            <img src="img/korea.png" alt="#" class="card-img">
             <h2 class="font-bold text-lg">South Korea anneong</h2>
             </div>
 
-            <div class="bg-[#896C6C] sm:bg-[#000000] md:bg-[#3E3F29] lg:bg-[#647FBC] p-4 rounded-xl shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center justify-center">
+            <div class="card">
+            <img src="img/ek.png" alt="#" class="card-img">
             <h2 class="font-bold text-lg">Enchanted Kingdom</h2>
             </div>
 
-            <div class="bg-[#896C6C] sm:bg-[#000000] md:bg-[#3E3F29] lg:bg-[#647FBC] p-4 rounded-xl shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center justify-center">
+            <div class="card">
+            <img src="img/disneyland.png" alt="#" class="card-img">
             <h2 class="font-bold text-lg">Disneyland</h2>
             </div>
 
-            <div class="bg-[#896C6C] sm:bg-[#000000] md:bg-[#3E3F29] lg:bg-[#647FBC] p-4 rounded-xl shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center justify-center">
+            <div class="card">
+            <img src="img/moa.png" alt="#" class="card-img">
             <h2 class="font-bold text-lg">Mall of Asia sa Pasay</h2>
             </div>
 
-            <div class="bg-[#896C6C] sm:bg-[#000000] md:bg-[#3E3F29] lg:bg-[#647FBC] p-4 rounded-xl shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center justify-center">
+            <div class="card">
+            <img src="img/thailand.png" alt="#" class="card-img">
             <h2 class="font-bold text-lg">Thailand sawadeka</h2>
             </div>
 
-            <div class="bg-[#896C6C] sm:bg-[#000000] md:bg-[#3E3F29] lg:bg-[#647FBC] p-4 rounded-xl shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center justify-center">
+            <div class="card">
+            <img src="img/canada.png" alt="#" class="card-img">
             <h2 class="font-bold text-lg">Canada</h2>
             </div>
 
-            <div class="bg-[#896C6C] sm:bg-[#000000] md:bg-[#3E3F29] lg:bg-[#647FBC] p-4 rounded-xl shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center justify-center">
+            <div class="card">
+            <img src="img/greece.png" alt="#" class="card-img">
             <h2 class="font-bold text-lg">Greece</h2>
             </div>
 
-            <div class="bg-[#896C6C] sm:bg-[#000000] md:bg-[#3E3F29] lg:bg-[#647FBC] p-4 rounded-xl shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center justify-center">
+            <div class="card">
+            <img src="img/caleruega.png" alt="#" class="card-img">
             <h2 class="font-bold text-lg">Caleruega Curch</h2>
             </div>
 
-            <div class="bg-[#896C6C] sm:bg-[#000000] md:bg-[#3E3F29] lg:bg-[#647FBC] p-4 rounded-xl shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center justify-center">
+            <div class="card">
+            <img src="img/bora.png" alt="#" class="card-img">
             <h2 class="font-bold text-lg">Boracay</h2>
             </div>
 
-            <div class="bg-[#896C6C] sm:bg-[#000000] md:bg-[#3E3F29] lg:bg-[#647FBC] p-4 rounded-xl shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center justify-center">
+            <div class="card">
+            <img src="img/pangasinan.png" alt="#" class="card-img">
             <h2 class="font-bold text-lg">Pangasinan</h2>
             </div>
 
-            <div class="bg-[#896C6C] sm:bg-[#000000] md:bg-[#3E3F29] lg:bg-[#647FBC] p-4 rounded-xl shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center justify-center">
+            <div class="card">
+            <img src="img/jerick.png" alt="#" class="card-img">
             <h2 class="font-bold text-lg">Bahay nina Jerick at Mica</h2>
             </div>
         </section>
         </section>
                  
     </body>
-    
 </html>
